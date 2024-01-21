@@ -1,6 +1,6 @@
 stages:
   data_ingestion:
-    cmd: python /Users/anujvaghani0/Developer/projects/Chest-Cancer-Classification-using-MLflow-DVC-dagshub/src/chest_Cancer_Classification/pipeline/stage_01_data_ingestion.py
+    cmd: python src/chest_Cancer_Classification/pipeline/stage_01_data_ingestion.py
     deps:
       - src/chest_Cancer_Classification/pipeline/stage_01_data_ingestion.py
       - config/config.yaml
